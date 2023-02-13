@@ -1,0 +1,10 @@
+<nav>
+  <ul class="navbar d-flex align-start mt-1">
+    <li><a routerLink="/" routerLinkActive="active" ariaCurrentWhenActive="page" class="nav-link" href=""><img class="imgLogo" src='{{ "assets/" + imgSrc + ".png" }}' alt=""></a></li>
+    <li><a routerLink="/accueil" routerLinkActive="active" ariaCurrentWhenActive="page" class="nav-link" href="">Accueil</a></li>
+    <li><a routerLink="/api" routerLinkActive="active" ariaCurrentWhenActive="page" class="nav-link" href="">Api</a></li>
+  </ul>
+</nav>
+
+<i class="fa-solid fa-lightbulb icon unselectable" (click)="changeMode()" [ngClass]="isDark ? 'fa-lightbulb' : 'fa-moon'"></i>
+<router-outlet></router-outlet>

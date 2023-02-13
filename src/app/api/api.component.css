@@ -1,0 +1,22 @@
+.container {
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.card {
+  flex-shrink: 0;
+  width: 20rem;
+  height: 20rem;
+}
+.img-card {
+  height: 15rem;
+  width: 15rem;
+}
+.card-name {
+  font-size: 1.6rem;
+  text-transform: capitalize;
+}

@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+        font-family: 'JetBrains Mono', monospace;
+}
+.dark {
+    transition: 0.7s linear;
+    background-color: #212121;
+    color: antiquewhite;
+}
+.light {
+    transition: 0.7s linear;
+    background-color: antiquewhite;
+    color: #212121;
+}
+.icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 3rem;
+}
+.text-center {
+    text-align: center;
+}
+.mt-1 {
+    margin-top: 1rem !important;
+}
+.mt-2 {
+    margin-top: 2rem !important;
+}
+.mt-3 {
+    margin-top: 3rem !important;
+}
+.mt-4 {
+    margin-top: 4rem !important;
+}
+.mt-5 {
+    margin-top: 5rem !important;
+}
+.d-flex {
+    display: flex;
+}
+.flex-column {
+    flex-direction: column;
+}
+.flex-center {
+    align-items: center;
+    justify-content: center;
+}
+.flex-start {
+    align-items: start;
+    justify-content: flex-start;
+}
+.flex-end {
+    align-items: end;
+    justify-content: flex-end;
+}
+.wrap {
+    flex-wrap: wrap;
+}
+.nav-link {
+  transition: 0.7s linear;
+  margin-left:2rem;
+  font-size: 1.3rem;
+}
+.nav-link a {
+  border: 0 !important;
+}
+.light .nav-link {
+  text-decoration: underline 0.1rem #212121;
+  color:#212121;
+}
+.dark .nav-link {
+  text-decoration: underline 0.1rem antiquewhite;
+  color: antiquewhite;
+}
+.nav-link:hover {
+  text-decoration: underline 0.1rem green;
+  color: green;
+}
+.nav-link:active {
+  color: green;
+}
+.nav-link img {
+  transition: opacity .5s linear;
+  width: 4vw;
+}
+.navbar {
+  list-style: none;
+}
+.align-start {
+  align-items: center;
+}
+
+
