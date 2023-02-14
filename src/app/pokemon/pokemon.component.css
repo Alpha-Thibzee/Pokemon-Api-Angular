@@ -1,5 +1,5 @@
 .container {
-  width: 80vw;
+  width: 90vw;
   margin: auto;
   display: flex;
   align-items: center;
@@ -9,8 +9,9 @@
 }
 .card {
   flex-shrink: 0;
-  width: 20rem;
-  height: 20rem;
+  margin-bottom: 7rem;
+  width: 17rem;
+  height: 17rem;
 }
 .img-card {
   height: 15rem;

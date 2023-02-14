@@ -1,0 +1,10 @@
+<section class="container mt-3">
+<ng-container *ngIf="responseResult" >
+<div class="card" *ngFor="let response of responseResult.results">
+   <!--<pre>{{|json}}</pre> -->
+    <p class="card-name">{{response.name}}</p>
+    <p class="card-name" *ngIf="response.data" >#{{response.data.id}}</p>
+    <img class="img-card" *ngIf="response.data" src="{{response.data.sprites.other.home.front_default}}" alt="">
+</div>
+</ng-container>
+</section>

@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from "./home/home.component";
-import {ApiComponent} from "./api/api.component";
+import {PokemonComponent} from "./pokemon/pokemon.component";
 
 const routes: Routes = [
   { path: 'accueil', component: HomeComponent },
-  { path: 'api', component: ApiComponent}
+  { path: 'pokemon', component: PokemonComponent}
 ];
 
 @NgModule({
